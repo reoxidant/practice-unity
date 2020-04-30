@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Name: Choose 1
   m_EditorClassIdentifier: 
   storyText: I am take choose 1.
+  states:
+  - {fileID: 11400000, guid: 379f68d8451094a53814192009e38d1e, type: 2}
+  - {fileID: 11400000, guid: 8e377ca895cc049da822f5d8ff082640, type: 2}
