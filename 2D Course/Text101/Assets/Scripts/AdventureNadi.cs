@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,14 +9,13 @@ public class AdventureNadi : MonoBehaviour {
 	[SerializeField] Text textComponent;
 	[SerializeField] State startingState;
 
-//	string[] daysOfTheWeek = { "Monday", "Thuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-
 	State state;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		state = startingState;
-		textComponent.text = state.GetStateStory ();
+		textComponent.text = state.GetStateStory();
 	}
 	
 	// Update is called once per frame
@@ -34,7 +34,7 @@ public class AdventureNadi : MonoBehaviour {
 				state = anotherStates [i];
 			}
 		}
-
+			
 		textComponent.text = state.GetStateStory ();
 	}
 }
