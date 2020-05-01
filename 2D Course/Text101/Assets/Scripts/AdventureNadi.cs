@@ -27,18 +27,14 @@ public class AdventureNadi : MonoBehaviour {
 	{
 		var anotherStates = state.GetAnotherStates();
 
-		if (Input.GetKeyDown (KeyCode.Alpha1)) 
+		for (int i = 0; i < anotherStates.Length; i++)
 		{
-			state = anotherStates [0];
+			if (Input.GetKeyDown (KeyCode.Alpha1 + i)) 
+			{
+				state = anotherStates [i];
+			}
 		}
-		else if (Input.GetKeyDown (KeyCode.Alpha2)) 
-		{
-			state = anotherStates [1];
-		} 
-		else if (Input.GetKeyDown (KeyCode.Alpha3)) 
-		{
-			state = anotherStates [2];
-		}
+
 		textComponent.text = state.GetStateStory ();
 	}
 }
