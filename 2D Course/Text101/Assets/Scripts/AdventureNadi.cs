@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class AdventureNadi : MonoBehaviour {
-
+public class AdventureNadi : MonoBehaviour 
+{
 	[SerializeField] Text textComponent;
 	[SerializeField] State startingState;
 
@@ -34,7 +35,18 @@ public class AdventureNadi : MonoBehaviour {
 				state = anotherStates [i];
 			}
 		}
+
+		if (Input.GetKeyDown (KeyCode.Q)) 
+		{
+			Debug.Log ("Quit!");
+			QuitGame ();
+		}
 			
 		textComponent.text = state.GetStateStory ();
+	}
+
+	private void QuitGame()
+	{
+		SceneManager.LoadScene("TextStory");	
 	}
 }

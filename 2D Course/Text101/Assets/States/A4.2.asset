@@ -32,5 +32,5 @@ MonoBehaviour:
     \u043F\u043E\u0434\u0440\u0443\u0433\u0438 - \u0447\u0442\u043E \u044D\u0442\u043E
     \u0431\u0440\u0435\u0434?"
   states:
-  - {fileID: 11400000, guid: 379f68d8451094a53814192009e38d1e, type: 2}
-  - {fileID: 11400000, guid: 8e377ca895cc049da822f5d8ff082640, type: 2}
+  - {fileID: 11400000, guid: 9d564c0489091426c9b3add73df2eb2e, type: 2}
+  - {fileID: 11400000, guid: 09833100e9f9c41bfa273adefda8066b, type: 2}
