@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Text101",
+"dataUrl": "Test v1.0 Adventure Nadya.data.unityweb",
+"asmCodeUrl": "Test v1.0 Adventure Nadya.asm.code.unityweb",
+"asmMemoryUrl": "Test v1.0 Adventure Nadya.asm.memory.unityweb",
+"asmFrameworkUrl": "Test v1.0 Adventure Nadya.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
