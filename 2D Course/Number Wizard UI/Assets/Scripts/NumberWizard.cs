@@ -13,6 +13,8 @@ public class NumberWizard : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		QualitySettings.vSyncCount = 0;
+		Application.targetFrameRate = 20;
 		StartGame ();
 	}
 
